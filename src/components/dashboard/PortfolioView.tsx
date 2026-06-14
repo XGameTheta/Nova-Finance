@@ -8,6 +8,7 @@ import {
 } from "recharts";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { MarketWatch } from "./MarketWatch";
 
 /* Mock Portfolio Data */
 const portfolioData = [
@@ -113,6 +114,8 @@ export function PortfolioView() {
           </div>
         </CardContent>
       </Card>
+
+      <MarketWatch />
     </div>
   );
 }
