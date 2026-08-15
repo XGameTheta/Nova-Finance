@@ -57,7 +57,7 @@ export function EducationHub() {
 
       <h3 className="text-xl font-semibold mt-8 mb-4">Standard Strategies Reference</h3>
       
-      <Accordion type="single" collapsible className="w-full">
+      <Accordion type="single" className="w-full">
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-left font-medium">Covered Call (Yield Generation)</AccordionTrigger>
           <AccordionContent className="text-slate-400">
